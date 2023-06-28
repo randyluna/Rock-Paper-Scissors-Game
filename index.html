@@ -4,20 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="gameDiv">
-        <h1 class="game text" id= "playerText">Player: </h1> 
-        <h1 class= "game text"id="computerText"> Computer:</h1>
-        <h1 class="game text" id="resultText"> Result:</h1>
-        
-        <!-- Buttons -->
-        <button class="choiceBtn">ROCK</button>
-        <button class="choiceBtn">PAPER</button>
-        <button class="choiceBtn">SCISSORS</button>
-    </div>
-    <script src="index.js"></script>
+    <section class="game">
+        <!--Title -->
+        <div class="title">Rock Paper Scissor</div>
+
+        <!--Display Score of player and computer -->
+        <div class="score">
+            <div class="playerScore">
+                <h2>Player</h2>
+                <p class="p-count count">0</p>
+
+            </div>
+            <div class="computerScore">
+                <h2>Computer</h2>
+                <p class="c-count count">0</p>
+
+            </div>
+        </div>
+
+        <div class="move">Choose your move</div>
+
+        <!--Number of moves left before game ends -->
+        <div class="movesleft">Moves Left: 10 </div>
+
+        <!--Options available to player to play game -->
+        <div class="options">
+            <button class="rock">Rock</button>
+            <button class="paper">Paper</button>
+            <button class="scissor">Scissors</button>
+        </div>
+
+        <!--Final result of game -->
+        <div class="result"></div>
+
+        <!--Reload the game -->
+        <button class="reload"></button>
+
+    </section>
+
+    <script src="app.js"></script>
+
+    <footer>
+        <p>By:Randy Luna</p>
+    </footer>
 </body>
 </html>

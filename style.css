@@ -1,0 +1,24 @@
+/* Applying to the whole Document */
+
+*{
+  padding:1px;
+  margin:0;
+  background-color:teal;
+  text-align: center;
+
+}
+/* Title */
+.title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* Score Board */
+/* .score{
+    
+} */
+
+/* Button Options */
+.options{
+
+}

@@ -11,14 +11,37 @@
 .title{
     font-size: 3rem;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 /* Score Board */
-/* .score{
+/* .score{ */
+
+.move{
+    font-size: 2rem;
     
-} */
+}
 
 /* Button Options */
 .options{
+    cursor: pointer;
+    box-shadow:5px 7px 8px #888888 ;
+    padding: .5rem;
+}
+
+/* Styling the Button */
+.rock,.paper,.scissor{
+    padding:.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* reset button */
+.reload{
+    cursor: pointer;
+    border-radius: 5px;
+    padding:.5rem;
+    
+
 
 }
